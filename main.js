@@ -1,8 +1,6 @@
 const express=require('express')
 const app=express()
 const path=require('path')\
-const https = require('https')//delete
-const http = require('http')//delete
 
 
 
@@ -55,6 +53,5 @@ app.get('/api/pets',(req,res)=>{
         {name:"bark",species:"dog"}])
 })
 
-http.createServer(app).listen(80)//to be deleted
-https.createServer(options, app).listen(443)//to be deleted
-//app.listen('https://wandi900616.github.io/my-project/')
+
+app.listen('https://wandi900616.github.io/my-project/')
