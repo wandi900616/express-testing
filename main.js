@@ -48,7 +48,3 @@ app.get('/api/pets',(req,res)=>{
         {name:"meow",species:"cat"},
         {name:"bark",species:"dog"}])
 })
-
-
-
-app.listen(3000)
