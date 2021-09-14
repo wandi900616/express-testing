@@ -48,4 +48,6 @@ app.get('/api/pets',(req,res)=>{
         {name:"meow",species:"cat"},
         {name:"bark",species:"dog"}])
 })
-app.listen('https://wandi900616.github.io/my-project/'))
+
+const port=process.env.PORT||5000
+app.listen(port)// please run nodemon main.js in terminal
